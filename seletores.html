@@ -1,0 +1,81 @@
+<! DOCTYPE html >
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Seletores e Links</title>
+	<link rel="stylesheet" href="estilo.css">
+	<style type="text/css">
+		body { font-family: arial; }
+		h1 { font-size: 20pt; }
+		h2 { font-size: 18pt; }
+		p { 
+			color: blue;
+			background-color: yellow;
+		}
+		#atencao{
+			color: white; 
+			background-color: red;
+		}
+		.brasil{
+			background-color: green;
+			color: yellow;
+			font-family: Verdana;
+		}
+		a:link{
+			color: black;
+			background-color: yellow;
+		}
+		a:hover{
+			color: white;
+			background-color: blue;
+		}
+		a:active{
+			color: white;
+			background-color: green;
+		}
+		a:visited{
+			color: white;
+			background-color: red;
+		}
+		nav#menu{
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<h1>Seletores e Links - Exemplos</h1>
+	<nav id="menu">
+		<a href="index.html">Página Inicial</a>
+		<a href="ola.html">Olá</a>
+		<a href="http://www.google.com">Google</a>
+	</nav>
+	<br>
+	<nav>
+		<a href="index.html">Página Inicial</a>
+		<a href="ola.html">Olá</a>
+	</nav>
+	<hr>
+	<h2>Exemplos de seletores</h2>
+	<h3>Seletor de elemento:</h3>
+	<p>Parágrafo 1</p>
+	<p class="brasil">Parágrafo 2</p>
+	<p>Parágrafo 3</p>
+	<p class="brasil">Parágrafo 4</p>
+	<p id="atencao">Parágrafo 5</p>
+	<hr>
+	<h2>Alterando os marcadores das Listas</h2>
+	<ul style="list-style-type: circle;">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+	</ul>
+	<ol style="list-style-type: upper-roman;">
+		<li>Item ordenado 1</li>
+		<li>Item ordenado 2</li>
+		<li>Item ordenado 3</li>
+		<li>Item ordenado 4</li>
+	</ol>
+	
+</body>
+</html>
